@@ -151,6 +151,9 @@ activemq-data/
 .env
 .envrc
 .venv
+.pip-cache/
+.python/
+.uv-cache/
 env/
 venv/
 ENV/
@@ -202,6 +205,12 @@ cython_debug/
 # .vscode/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
+
+# Manim generated output
+media/
+
+# JetBrains project settings
+.idea/
 
 # Ruff stuff:
 .ruff_cache/

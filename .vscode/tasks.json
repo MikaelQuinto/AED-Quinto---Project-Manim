@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Manim: render rápido",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "manim", "-pql", "scenes\\intro.py", "EscenaInicial"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Manim: render final",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "manim", "-pqh", "scenes\\intro.py", "EscenaInicial"],
+      "problemMatcher": []
+    }
+  ]
+}
