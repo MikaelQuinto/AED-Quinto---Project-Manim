@@ -2,7 +2,6 @@ from manim import BLUE, GREEN, UP, Circle, Create, Scene, Square, Text, Transfor
 
 
 class EscenaInicial(Scene):
-    """Escena mínima para comprobar que Manim funciona correctamente."""
 
     def construct(self) -> None:
         titulo = Text("Animando estructuras de datos", font_size=42)

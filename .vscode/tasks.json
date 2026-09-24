@@ -5,7 +5,13 @@
       "label": "Manim: render rápido",
       "type": "shell",
       "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-      "args": ["-m", "manim", "-pql", "scenes\\intro.py", "EscenaInicial"],
+      "args": [
+        "-m",
+        "manim",
+        "-pql",
+        "scenes\\binary_search_tree.py",
+        "ArbolBinarioBusqueda"
+      ],
       "group": "build",
       "problemMatcher": []
     },
@@ -13,7 +19,13 @@
       "label": "Manim: render final",
       "type": "shell",
       "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-      "args": ["-m", "manim", "-pqh", "scenes\\intro.py", "EscenaInicial"],
+      "args": [
+        "-m",
+        "manim",
+        "-pqh",
+        "scenes\\binary_search_tree.py",
+        "ArbolBinarioBusqueda"
+      ],
       "problemMatcher": []
     }
   ]
